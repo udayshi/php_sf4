@@ -8,3 +8,9 @@
 2018-11-19 11:37:50,464 INFO waiting for nginx, php-fpm to die
 2018-11-19 11:37:50,481 INFO stopped: php-fpm (exit status 0)
 2018-11-19 11:37:50,484 INFO stopped: nginx (exit status 0)
+2018-11-19 11:40:47,993 CRIT Supervisor running as root (no user in config file)
+2018-11-19 11:40:47,997 INFO supervisord started with pid 1
+2018-11-19 11:40:49,000 INFO spawned: 'nginx' with pid 9
+2018-11-19 11:40:49,001 INFO spawned: 'php-fpm' with pid 10
+2018-11-19 11:40:50,039 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-11-19 11:40:50,039 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
