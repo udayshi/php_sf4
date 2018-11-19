@@ -7,11 +7,16 @@ SF4 on PHP 7.2 build for docker with xdebug,redis pdo. By default x-debug is dis
         - "./manifest/config/supervisord.conf:/etc/supervisor/conf.d/supervisord.conf:ro"
         - "./manifest/app:/app"
 ```
+## To view all branches
+```
+git branch -a
 
+```
 
 ## Getting Started
 
  ```
+ 
  composer create-project symfony/website-skeleton app
  composer install
  docker-compose up -d
