@@ -12,6 +12,8 @@ SF4 on PHP 7.2 build for docker with xdebug,redis pdo. By default x-debug is dis
 git branch -a
 
 ```
+## List of available Branches
+[Knp Paginator](https://github.com/udayshi/php_sf4/tree/knp_paginator)
 
 ## Getting Started
 
