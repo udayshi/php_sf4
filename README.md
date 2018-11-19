@@ -10,7 +10,16 @@ SF4 on PHP 7.2 build for docker with xdebug,redis pdo. By default x-debug is dis
 ## To view all branches
 ```
 git branch -a
+git checkout knp_paginator
+```
 
+## File changes
+```
+app/config/bundles.php
+app/config/packages/knp_paginator.yaml
+app/src/Controller/DefaultController.php
+app/templates/default/index.html.twig
+app/templates/paginator/index.html.twig
 ```
 
 ## Getting Started
