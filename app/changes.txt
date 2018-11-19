@@ -1,0 +1,9 @@
+README.md
+app/composer.json
+app/composer.lock
+app/config/bundles.php
+app/config/packages/knp_paginator.yaml
+app/src/Controller/DefaultController.php
+app/symfony.lock
+app/templates/default/index.html.twig
+app/templates/paginator/index.html.twig
